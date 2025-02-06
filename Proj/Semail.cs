@@ -15,10 +15,17 @@ namespace Proj
     public partial class Semail : Form
     {
         ProjContext db;
+        int index;
         public Semail()
         {
             InitializeComponent();
             db = new ProjContext();
+        }
+        public Semail(int id)
+        {
+            InitializeComponent();
+            db = new ProjContext();
+            this.index = id;
         }
 
         private void Semail_Load(object sender, EventArgs e)
@@ -59,7 +66,7 @@ namespace Proj
 
         private void button4_Click(object sender, EventArgs e)
         {
-            admin l = new admin();
+            admin l = new admin(index);
             this.Hide();
             l.ShowDialog();
         }

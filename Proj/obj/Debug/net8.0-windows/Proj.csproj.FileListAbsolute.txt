@@ -169,3 +169,4 @@ C:\Users\Rahma Ayman\source\repos\Proj\Proj\bin\Debug\net8.0-windows\Dapper.dll
 C:\Users\Rahma Ayman\source\repos\Proj\Proj\obj\Debug\net8.0-windows\Proj.studentProf.resources
 C:\Users\Rahma Ayman\source\repos\Proj\Proj\obj\Debug\net8.0-windows\Proj.studentSub.resources
 C:\Users\Rahma Ayman\source\repos\Proj\Proj\obj\Debug\net8.0-windows\Proj.subjEdit.resources
+C:\Users\Rahma Ayman\source\repos\Proj\Proj\obj\Debug\net8.0-windows\Proj.sourcelink.json

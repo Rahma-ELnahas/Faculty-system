@@ -39,7 +39,7 @@ namespace Proj
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Semail semail = new Semail();
+            Semail semail = new Semail(id);
             this.Hide();
             semail.ShowDialog();
         }
@@ -66,14 +66,14 @@ namespace Proj
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Semail semail = new Semail();
+            Semail semail = new Semail(id);
             this.Hide();
             semail.ShowDialog();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            subjects sub = new subjects();
+            subjects sub = new subjects(id);
             this.Hide();
             sub.ShowDialog();
         }
