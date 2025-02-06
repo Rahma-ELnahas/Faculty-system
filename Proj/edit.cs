@@ -14,12 +14,13 @@ namespace Proj
     public partial class edit : Form
     {
         int id;
+        int index;
         ProjContext obj = new ProjContext();
-        public edit(int id)
+        public edit(int id, int index)
         {
             InitializeComponent();
             this.id = id;
-
+            this.index = index;
 
         }
         public edit()
@@ -29,7 +30,7 @@ namespace Proj
 
         private void edit_Load(object sender, EventArgs e)
         {
-            if (id > 0)
+            if (index > 0)
             {
                 var s1 = obj.users.Where(s => s.id == id).SingleOrDefault();
                 txt_name.Text = s1.name;
@@ -43,7 +44,7 @@ namespace Proj
         }
         private void Done_Click(object sender, EventArgs e)
         {
-            if (id > 0)
+            if (index > 0)
             {
                 var s1 = obj.users.Where(s => s.id == id).SingleOrDefault();
                 s1.name = txt_name.Text;
@@ -52,6 +53,8 @@ namespace Proj
                 s1.age = int.Parse(txt_age.Text);
                 s1.phone = int.Parse(txt_phone.Text);
                 s1.role = txt_role.Text;
+                obj.SaveChanges();
+                MessageBox.Show("Done");
             }
             else
             {
@@ -64,18 +67,20 @@ namespace Proj
                 u.role = txt_role.Text;
 
                 obj.users.Add(u);
+                obj.SaveChanges();
+                MessageBox.Show("Done");
+                Semail semail = new Semail(id);
+                this.Hide();
+                semail.Show();
             }
-            obj.SaveChanges();
-            MessageBox.Show("Done");
+           
 
-            Semail semail = new Semail();
-            this.Hide();
-            semail.Show();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Semail semail = new Semail();
+            Semail semail = new Semail(index);
             this.Hide();
             semail.Show();
         }

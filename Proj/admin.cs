@@ -1,4 +1,5 @@
-﻿using Proj.Models;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Proj.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace Proj
     {
         int id;
         ProjContext obj;
+        int index;
         public admin(int id)
         {
             InitializeComponent();
@@ -66,7 +68,7 @@ namespace Proj
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Semail semail = new Semail(id);
+            Semail semail = new Semail(index);
             this.Hide();
             semail.ShowDialog();
         }

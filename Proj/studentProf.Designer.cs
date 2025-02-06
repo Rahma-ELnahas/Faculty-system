@@ -37,6 +37,7 @@
             textBox4 = new TextBox();
             label1 = new Label();
             panel1 = new Panel();
+            label8 = new Label();
             button1 = new Button();
             txtconf = new TextBox();
             texold = new TextBox();
@@ -123,6 +124,7 @@
             // 
             panel1.BackColor = SystemColors.MenuBar;
             panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(label8);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(txtconf);
             panel1.Controls.Add(texold);
@@ -136,12 +138,25 @@
             panel1.TabIndex = 10;
             panel1.Visible = false;
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Cursor = Cursors.Hand;
+            label8.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold);
+            label8.ForeColor = SystemColors.WindowFrame;
+            label8.Location = new Point(222, 115);
+            label8.Name = "label8";
+            label8.Size = new Size(63, 27);
+            label8.TabIndex = 17;
+            label8.Text = "Show";
+            label8.Click += label8_Click;
+            // 
             // button1
             // 
             button1.BackColor = SystemColors.ControlDarkDark;
             button1.Font = new Font("Adobe Fan Heiti Std B", 12F, FontStyle.Bold);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(134, 115);
+            button1.Location = new Point(97, 115);
             button1.Name = "button1";
             button1.Size = new Size(84, 43);
             button1.TabIndex = 11;
@@ -153,6 +168,7 @@
             // 
             txtconf.Location = new Point(134, 78);
             txtconf.Name = "txtconf";
+            txtconf.PasswordChar = '*';
             txtconf.Size = new Size(145, 27);
             txtconf.TabIndex = 16;
             txtconf.TextChanged += textBox1_TextChanged;
@@ -161,6 +177,7 @@
             // 
             texold.Location = new Point(134, 12);
             texold.Name = "texold";
+            texold.PasswordChar = '*';
             texold.Size = new Size(145, 27);
             texold.TabIndex = 14;
             texold.TextChanged += textBox6_TextChanged;
@@ -169,6 +186,7 @@
             // 
             txtnew.Location = new Point(134, 45);
             txtnew.Name = "txtnew";
+            txtnew.PasswordChar = '*';
             txtnew.Size = new Size(145, 27);
             txtnew.TabIndex = 15;
             // 
@@ -276,5 +294,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Label label8;
     }
 }

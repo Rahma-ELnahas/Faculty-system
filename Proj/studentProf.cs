@@ -94,7 +94,7 @@ namespace Proj
                 MessageBox.Show("Please enter a valid old password.");
                 return;
             }
-            if (oldPassword != data.password) 
+            if (oldPassword != data.password)
             {
                 MessageBox.Show("Please, enter correct old password.");
                 return;
@@ -114,10 +114,27 @@ namespace Proj
                 return;
             }
 
-            data.password = newPassword; 
+            data.password = newPassword;
             obj.SaveChanges();
             MessageBox.Show("Password updated successfully.");
             txtnew.Text = txtconf.Text = texold.Text = "";
+            panel1.Visible = false;
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            if (texold.PasswordChar == '*')
+            {
+                texold.PasswordChar = '\0';
+                txtnew.PasswordChar = '\0';
+                txtconf.PasswordChar = '\0';
+            }
+            else
+            {
+                texold.PasswordChar = '*';
+                txtnew.PasswordChar = '*';
+                txtconf.PasswordChar = '*';
+            }
         }
     }
 }

@@ -103,6 +103,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = SystemColors.ControlLight;
+            label1.Cursor = Cursors.Hand;
             label1.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Bold);
             label1.Location = new Point(138, 19);
             label1.Name = "label1";
@@ -114,6 +115,7 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Location = new Point(3, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(98, 70);
@@ -159,7 +161,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = SystemColors.ButtonHighlight;
+            label4.BackColor = SystemColors.Control;
             label4.Font = new Font("Microsoft New Tai Lue", 24F, FontStyle.Bold);
             label4.Location = new Point(141, 172);
             label4.Name = "label4";
@@ -170,9 +172,9 @@
             // lbl_id
             // 
             lbl_id.AutoSize = true;
-            lbl_id.BackColor = SystemColors.ButtonHighlight;
+            lbl_id.BackColor = SystemColors.Control;
             lbl_id.Font = new Font("Microsoft New Tai Lue", 24F, FontStyle.Bold);
-            lbl_id.Location = new Point(177, 238);
+            lbl_id.Location = new Point(156, 238);
             lbl_id.Name = "lbl_id";
             lbl_id.Size = new Size(44, 52);
             lbl_id.TabIndex = 8;

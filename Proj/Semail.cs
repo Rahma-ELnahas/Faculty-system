@@ -52,14 +52,14 @@ namespace Proj
 
         private void button3_Click(object sender, EventArgs e)
         {
-            edit ed = new edit();
+            edit ed = new edit(index,0);
             this.Hide();
             ed.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            edit ed = new edit(id);
+            edit ed = new edit(id,index);
             this.Hide();
             ed.ShowDialog();
         }

@@ -56,9 +56,9 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox1);
             panel1.Cursor = Cursors.Hand;
-            panel1.Location = new Point(146, 418);
+            panel1.Location = new Point(131, 418);
             panel1.Name = "panel1";
-            panel1.Size = new Size(300, 75);
+            panel1.Size = new Size(330, 75);
             panel1.TabIndex = 0;
             // 
             // label1
@@ -92,9 +92,9 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(pictureBox2);
             panel2.Cursor = Cursors.Hand;
-            panel2.Location = new Point(146, 324);
+            panel2.Location = new Point(131, 324);
             panel2.Name = "panel2";
-            panel2.Size = new Size(300, 75);
+            panel2.Size = new Size(330, 75);
             panel2.TabIndex = 3;
             // 
             // label2
@@ -102,12 +102,12 @@
             label2.AutoSize = true;
             label2.FlatStyle = FlatStyle.System;
             label2.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Bold);
-            label2.Location = new Point(136, 18);
+            label2.Location = new Point(117, 18);
             label2.Margin = new Padding(5, 3, 5, 3);
             label2.Name = "label2";
-            label2.Size = new Size(164, 40);
+            label2.Size = new Size(196, 40);
             label2.TabIndex = 2;
-            label2.Text = "My Profile";
+            label2.Text = "Show Profile";
             label2.Click += label2_Click;
             // 
             // pictureBox2
@@ -129,9 +129,9 @@
             panel3.Controls.Add(label3);
             panel3.Controls.Add(pictureBox3);
             panel3.Cursor = Cursors.Hand;
-            panel3.Location = new Point(146, 512);
+            panel3.Location = new Point(131, 512);
             panel3.Name = "panel3";
-            panel3.Size = new Size(300, 75);
+            panel3.Size = new Size(330, 75);
             panel3.TabIndex = 4;
             // 
             // label3
@@ -169,10 +169,10 @@
             // lbl_student
             // 
             lbl_student.AutoSize = true;
-            lbl_student.Font = new Font("Microsoft New Tai Lue", 26F, FontStyle.Italic);
-            lbl_student.Location = new Point(170, 241);
+            lbl_student.Font = new Font("Microsoft New Tai Lue", 30F, FontStyle.Bold | FontStyle.Italic);
+            lbl_student.Location = new Point(146, 241);
             lbl_student.Name = "lbl_student";
-            lbl_student.Size = new Size(67, 58);
+            lbl_student.Size = new Size(80, 66);
             lbl_student.TabIndex = 6;
             lbl_student.Text = "Hi";
             // 

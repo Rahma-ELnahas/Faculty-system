@@ -44,7 +44,7 @@ namespace Proj
             db.Subjects.Remove(q1);
             db.SaveChanges();
             MessageBox.Show("Done");
-
+            txt_phone.Text = "";
             dgv_sub.DataSource = db.Subjects.Select(s => new { name = s.name, doc_name = s.doc.name }).ToList();
             button2.Visible = false;
             button1.Visible = false;
@@ -59,14 +59,15 @@ namespace Proj
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int rowIndex = dgv_sub.SelectedCells[0].RowIndex;
-            string Name = dgv_sub.Rows[rowIndex].Cells[0].Value?.ToString();
+            //int rowIndex = dgv_sub.SelectedCells[0].RowIndex;
+            //string Name = dgv_sub.Rows[rowIndex].Cells[0].Value?.ToString();
             var q1 = db.Subjects.Where(s => s.name == Name).FirstOrDefault();
-            if (q1 != null)
-            {
-                MessageBox.Show("This subject already exists");
-                return;
-            }
+            //if (q1 != null)
+            //{
+            //    MessageBox.Show("This subject already exists");
+            //    return;
+            //}
+
             subject s = new subject();
             s.name = txt_phone.Text;
             s.docId = (int)cb_doctor.SelectedValue;
@@ -81,11 +82,15 @@ namespace Proj
 
         private void button2_Click(object sender, EventArgs e)
         {
+            var q1 = db.Subjects.Where(s => s.name == name).FirstOrDefault();
+            q1.name = txt_phone.Text;
+            q1.docId = (int)cb_doctor.SelectedValue;
+            db.SaveChanges();
             dgv_sub.DataSource = db.Subjects.Select(s => new { name = s.name, doc_name = s.doc.name }).ToList();
-            var q2 = db.users.Where(s => s.role == "doctor").ToList();
-            cb_doctor.DataSource = q2;
-            cb_doctor.ValueMember = "id";
-            cb_doctor.DisplayMember = "name";
+            txt_phone.Text = "";
+            button2.Visible = false;
+            button1.Visible = false;
+            MessageBox.Show("Done");
 
         }
 
