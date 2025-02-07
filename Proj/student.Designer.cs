@@ -170,7 +170,7 @@
             // 
             lbl_student.AutoSize = true;
             lbl_student.Font = new Font("Microsoft New Tai Lue", 30F, FontStyle.Bold | FontStyle.Italic);
-            lbl_student.Location = new Point(146, 241);
+            lbl_student.Location = new Point(118, 241);
             lbl_student.Name = "lbl_student";
             lbl_student.Size = new Size(80, 66);
             lbl_student.TabIndex = 6;

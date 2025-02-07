@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\proj\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\proj\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\studentprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\proj\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|solutionrelative:proj\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4E6EC0C-FE26-4E4F-85A3-2D55440856D7}|Proj\\Proj.csproj|c:\\users\\rahma ayman\\source\\repos\\proj\\proj\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,7 +162,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Intro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Intro.cs",
+              "RelativeDocumentMoniker": "Proj\\Intro.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Intro.cs [Design]",
+              "RelativeToolTip": "Proj\\Intro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:37:28.99Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Login.cs",
+              "RelativeDocumentMoniker": "Proj\\Login.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Login.cs [Design]",
+              "RelativeToolTip": "Proj\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:50:58.18Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "studentProf.cs",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs",
+              "RelativeDocumentMoniker": "Proj\\studentProf.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs",
+              "RelativeToolTip": "Proj\\studentProf.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwIcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:49:51.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "studentProf.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs",
+              "RelativeDocumentMoniker": "Proj\\studentProf.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs [Design]",
+              "RelativeToolTip": "Proj\\studentProf.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:49:45.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "subjects.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
+              "RelativeDocumentMoniker": "Proj\\subjects.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs [Design]",
+              "RelativeToolTip": "Proj\\subjects.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:12:00.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "subjects.cs",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
+              "RelativeDocumentMoniker": "Proj\\subjects.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
+              "RelativeToolTip": "Proj\\subjects.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:57:18.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Semail.cs",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Semail.cs",
+              "RelativeDocumentMoniker": "Proj\\Semail.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Semail.cs",
+              "RelativeToolTip": "Proj\\Semail.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:46:11.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "student.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\student.cs",
+              "RelativeDocumentMoniker": "Proj\\student.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\student.cs [Design]*",
+              "RelativeToolTip": "Proj\\student.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:21:57.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Login.cs",
               "RelativeDocumentMoniker": "Proj\\Login.cs",
@@ -167,88 +270,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Login.cs",
-              "RelativeDocumentMoniker": "Proj\\Login.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Login.cs [Design]",
-              "RelativeToolTip": "Proj\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T22:50:58.18Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "studentProf.cs",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs",
-              "RelativeDocumentMoniker": "Proj\\studentProf.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs*",
-              "RelativeToolTip": "Proj\\studentProf.cs*",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T22:49:51.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "studentProf.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs",
-              "RelativeDocumentMoniker": "Proj\\studentProf.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\studentProf.cs [Design]*",
-              "RelativeToolTip": "Proj\\studentProf.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T22:49:45.186Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "subjects.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
-              "RelativeDocumentMoniker": "Proj\\subjects.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs [Design]",
-              "RelativeToolTip": "Proj\\subjects.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:12:00.766Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "subjects.cs",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
-              "RelativeDocumentMoniker": "Proj\\subjects.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\subjects.cs",
-              "RelativeToolTip": "Proj\\subjects.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T22:57:18.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Semail.cs",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Semail.cs",
-              "RelativeDocumentMoniker": "Proj\\Semail.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\Semail.cs",
-              "RelativeToolTip": "Proj\\Semail.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T22:46:11.495Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "student.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\student.cs",
-              "RelativeDocumentMoniker": "Proj\\student.cs",
-              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\student.cs [Design]*",
-              "RelativeToolTip": "Proj\\student.cs [Design]*",
+              "Title": "guest.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\guest.cs",
+              "RelativeDocumentMoniker": "Proj\\guest.cs",
+              "ToolTip": "C:\\Users\\Rahma Ayman\\source\\repos\\Proj\\Proj\\guest.cs [Design]",
+              "RelativeToolTip": "Proj\\guest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:21:57.857Z",
+              "WhenOpened": "2025-02-07T10:36:39.638Z",
               "EditorCaption": " [Design]"
             }
           ]

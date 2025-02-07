@@ -92,7 +92,7 @@
             button1.Name = "button1";
             button1.Size = new Size(171, 51);
             button1.TabIndex = 6;
-            button1.Text = "I`m a Gust";
+            button1.Text = "I`m a Guest";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
